@@ -1,0 +1,584 @@
+<!DOCTYPE HTML>
+
+
+<!-- 텍스트 효과 주는 것
+	
+	텍스트 진하게 - <b></b> , <strong></strong>
+	텍스트 기울리게 - <i></i> , <em></em>
+	텍스트 살짝 작게 위로 - <sup></sup> 텍스트 살짝 작게 아래로 - <sub></sub>
+	텍스트 아래 선 - <u></u>
+	텍스트 누르면 페이지 이동 - <a href=""></a> 
+
+-->
+
+
+<html>
+	<head>
+		<title>The Sight</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-XYZ" crossorigin="anonymous" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+		
+		<!-- 폰트 사용 스타일 -->
+		<style>
+			@font-face {
+				font-family: 'GongGothicMedium';
+				src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium-300.woff') format('woff');
+				font-weight: 300;
+				font-style: normal;
+			}
+	
+			.font-300 {
+				font-family: 'GongGothicMedium', sans-serif;
+				font-weight: 300;
+			}
+		</style>
+	
+		<!-- 굵기 400 폰트 -->
+		<style>
+			@font-face {
+				font-family: 'GongGothicMedium';
+				src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium-400.woff') format('woff');
+				font-weight: normal;
+				font-style: normal;
+			}
+	
+			.font-400 {
+				font-family: 'GongGothicMedium', sans-serif;
+				font-weight: normal;
+			}
+		</style>
+	
+		<!-- 굵기 700 폰트 -->
+		<style>
+			@font-face {
+				font-family: 'GongGothicMedium';
+				src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium-700.woff') format('woff');
+				font-weight: 700;
+				font-style: normal;
+			}
+	
+			.font-700 {
+				font-family: 'GongGothicMedium', sans-serif;
+				font-weight: 700;
+			}
+		</style>
+
+		<style>
+
+			l2 { text-align: right;}
+		</style>
+		
+
+<style>
+	l3 { text-align: center;}
+</style>
+
+<style>
+
+	l4 { font-size: 15px;}
+</style>
+
+<style>
+
+	icon5 { font-size: 30px;}
+</style>
+
+
+<style>
+	.font-700-30px {
+		font-family: 'GongGothicMedium', sans-serif;
+		font-weight: 700;
+		font-size: 30px;
+	}
+</style>
+
+<!-- 굵기 700에 사이즈 작은 폰트 -->
+<style>
+	@font-face {
+		font-family: 'GongGothicMedium';
+		src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium-700.woff') format('woff');
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	.font-700 {
+		font-family: 'GongGothicMedium', sans-serif;
+		font-weight: 700;
+	}
+</style>
+
+
+
+<style>
+	
+	/* 공체 폰트 Light */
+	@font-face {
+      font-family: 'GongLight';
+      src: url('assets/webfonts/gong-light.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+	  font-size: 10px;
+	  font-size: 13px;
+	  font-size: 15px;
+	  font-size: 20px;
+	  font-size: 25px;
+	  font-size: 30px;
+	  font-size: 35px;
+	  font-size: 40px;
+    }
+
+    gl10 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 10px;
+    }
+
+	gl13 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 13px;
+    }
+
+	gl15 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 15px;
+    }
+
+	gl20 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 20px;
+    }
+
+	gl25 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 25px;
+    }
+
+	gl30 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 30px;
+    }
+
+	gl35 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 35px;
+    }
+
+	gl40 {
+      font-family: 'GongLight', sans-serif;
+	  font-size: 40px;
+    }
+
+
+
+	/* 공체 폰트 Medium */
+	@font-face {
+      font-family: 'GongMedium';
+      src: url('assets/webfonts/gong-medium.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+	  font-size: 10px;
+	  font-size: 15px;
+	  font-size: 20px;
+	  font-size: 25px;
+	  font-size: 30px;
+	  font-size: 35px;
+	  font-size: 40px;
+    }
+
+    gm10 {
+      font-family: 'GongMedium', sans-serif;
+	  font-size: 10px;
+    }
+
+	gm15 {
+      font-family: 'GongMedium', sans-serif;
+	  font-size: 15px;
+    }
+
+	gm20 {
+      font-family: 'GongMedium', sans-serif;
+	  font-size: 20px;
+    }
+
+	gm25 {
+      font-family: 'GongMedium', sans-serif;
+	  font-size: 25px;
+    }
+
+	gm30 {
+      font-family: 'GongMedium', sans-serif;
+	  font-size: 30px;
+    }
+
+	gm35 {
+      font-family: 'GongMedium', sans-serif;
+	  font-size: 35px;
+    }
+
+	gm40 {
+      font-family: 'GongMedium', sans-serif;
+	  font-size: 40px;
+    }
+
+
+
+	/* 공체 폰트 Bold */
+	@font-face {
+      font-family: 'GongBold';
+      src: url('assets/webfonts/gong-bold.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+	  font-size: 10px;
+	  font-size: 15px;
+	  font-size: 20px;
+	  font-size: 25px;
+	  font-size: 30px;
+	  font-size: 35px;
+	  font-size: 40px;
+	  font-size: 45px;
+	  font-size: 50px;
+    }
+
+    gb10 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 10px;
+    }
+
+	gb15 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 15px;
+    }
+
+	gb20 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 20px;
+    }
+
+	gb25 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 25px;
+    }
+
+	gb30 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 30px;
+    }
+
+	gb35 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 35px;
+    }
+
+	gb40 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 40px;
+    }
+
+	gb45 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 45px;
+    }
+
+	gb50 {
+      font-family: 'GongBold', sans-serif;
+	  font-size: 50px;
+    }
+
+</style>
+
+
+	</head>
+	
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">시 선</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="Summary.html">Summary</a></li>
+										<li><a href="elements.html">Elements</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>The Sight</h2>
+							<p>The way you look at me<br />
+							In a house with no one<br />
+							I can feel it.</p>
+							<ul class="actions special">
+								<li><a href="#menu" class="button primary1">Do you want other Page?</a></li>
+							</ul>
+
+							<ul class="actions special">
+								<li><a href="https://youtu.be/Boaj37BJNyQ" class="button primary2">Do you want see Our Viedo?</a></li>
+							</ul>
+
+						</div>
+						<a href="#one" class="more scrolly">This is Movie?</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<gb40>영화의 간단한 정보 및 시청 제한</gb40>
+								<br><br>
+								<gl15>이 영화는 너무나도 일상적이면서도 공포스럽고 뒤에 누군가가 있을 지도 모른다는 공포성으로 인해서
+									<br>유아 유해매체물로서 정보통신망 이용촉진 및 정보보호 등에 과한 법률 및 청소년 보호법의 규정에 의하여
+									<br>12개월 미만의 유아는 이 영상매체물을 시청할 수 없습니다.
+								</gl15>
+							</header>
+							
+						<ul class="icons major2">
+							
+								<li class="icon-container">
+									<img src="images\코미디 아이콘.png" alt="코미디 아이콘">
+									<p><gb20>Comedy</gb20></p>
+								</li>
+							
+								<li class="icon-container">
+									<img src="images\스릴러 아이콘.png" alt="스릴러 아이콘">
+									<p><gb20>Horror</gb20></p>
+								</li>
+							
+								<li class="icon-container">
+									<img src="images\호러 아이콘.png" alt="호러 아이콘">
+									<p><gb20>Thriller</gb20></p>
+								</li>
+							
+						</ul>
+
+						</div>
+					</section>
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major">
+			<gb40>영화의 간단 소개</gb40>
+			<hr/>
+			<gl20>도대체 이 영화가 뭐냐고 물어보시는 분들이 많아서
+			<br>간단하게 설명을 해드리겠습니다.
+			</gl20>
+		</header>
+	</div>
+</section>
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/포근하다.png" alt="" /></div><div class="content">
+								
+								<gb35>It's routine!</gb35><br>
+								<br>
+								<gm20>우리 집 같다!</gm20>
+								<br><br>
+								<gl15>너무나도 일상적인 집 <br>마치 우리 집만 같은 포근함과 구수함이 당신을 기다리고 있습니다.</g115>
+							
+							</div>
+						</section>
+
+
+
+						<section class="spotlight">
+							<div class="image"><img src="images/소름돋는다.png" alt="" /></div><div class="content">
+
+								<l2>
+								<p><gb35>It's so scary!!</gb35><br></p>
+								<p><gm20>너무 소름이다!</gm20></p>
+								<p><gl15>계속해서 등에 무언가가 쿡쿡 누르는 것만 같다! <br>너무나도 소름이 끼쳐서 계속해서 뒤에 누군가가 있는거 같습니다!</g115></p>
+								</l2>
+								
+							</div>
+						</section>
+
+
+
+
+						<section class="spotlight">
+							<div class="image"><img src="images/반전이다.png" alt="" /></div><div class="content">
+								
+								<gb35>A huge twist!!!</gb35><br>
+								<br>
+								<gm20>엄청난 반전!</gm20>
+								<br><br>
+								<gl15>처음에는 이게 뭐야?! 라고 하시겠지만 <br>한번 보고난다면 계속 집에 갈 때에도 생각이 납니다!!</g115>
+								
+						</section>
+					</section>
+
+					
+
+				<!-- Three -->
+					<section id="three" class="wrapper style6 special">
+						<div class="inner">
+							<header class="major">
+								
+								<gb40>영화의 한 줄 평</gb40>
+								<hr/>
+								<gl20>많은 사람들의 엄청나고 저조한 평가들이 있었지만
+								<br>우리는 그 중에서도 흥행을 위해서 유명한 사람들이 말한 것들만 적었습니다.
+								</gl20>
+				
+							</header>
+							
+						</div>
+					</section>
+
+					<!-- four -->
+					<section id="two" class="wrapper alt style2">
+						
+
+						<!-- 크리스토프 놀란 -->
+						<section class="spotlight">
+							<div class="image"><img src="images/크리스토퍼 놀란.png" alt="" /></div><div class="content">
+							
+							
+								<gb35>Christopher Nolan</gb35>
+								<br><gl15>크리스토프 놀란 - 영화 " 오펜하이머 " 감독</gl15>
+								
+								<br><br><gm20>" 이 영화는 너무 대단하다!<br>다음 후속작은 이 영화를 위해 만들겠다! "</gm20>
+								
+								<br><br><icon5>★★★★☆</icon5>
+							
+
+							</div>
+						</section>
+
+						<!-- 마이클 베이 -->
+						<section class="spotlight">
+							<div class="image"><img src="images/마이클 베이.png" alt="" /></div><div class="content">	
+
+								<l2>
+									<p><gb35>Michael Bay</gb35><br><gl15>마이클 베이 - 영화 " 아바타 " 감독</gl15></p>
+									<p><gm20>" Beautiful! Wonderful! 이 영화를 보니
+										<br>내가 지금까지 만들었던 영화들이 부끄러워서 다 폭발시켜버리고 싶다! "</gm20></p>
+									<icon5><p>★☆☆☆☆</p></icon5>
+								</l2>
+								
+
+							</div>
+						</section>
+
+
+						<!-- 마틴 스코세이지 -->
+						<section class="spotlight">
+							<div class="image"><img src="images/마틴 스코세이지.png" alt="" /></div><div class="content">
+							
+								<gb35>Martin Scorsese</gb35>
+								<br><gl15>마틴 스코세이지 - 영화 " 아이리시 맨 " 감독</gl15>
+								
+								<br><br><gm20>" 정말 눈물이 난다!<br>이제 이 생에 여한이 없다! "</gm20>
+								
+								<br><br><icon5>★★★☆☆</icon5>
+								
+							</div>
+						</section>
+
+
+						<!-- 쿠엔틴 타란티노 -->
+						<section class="spotlight">
+							<div class="image"><img src="images/쿠엔틴 타란티노.png" alt="" /></div><div class="content">
+							
+
+								<l2>
+									<p><gb35>Quentin Tarantino</gb35>
+										<br><gl15>쿠엔틴 타란티노 - 영화 " 원스 어폰 어 타임 인 할리우드 " 감독</gl15></p>
+									<p><gm20>" 진짜 뭘 만든건지는 잘 모르겠는데,<br>왜 계속해서 보게 되는걸까? "</gm20></p>
+									<icon5><p>★★★★☆</p></icon5>
+								</l2>
+
+
+							</div>
+						</section>
+
+
+						<!-- 봉준호 -->
+						<section class="spotlight">
+							<div class="image"><img src="images/봉준호.png" /></div><div class="content">
+
+
+								<gb35>Bong Joon-ho</gb35>
+								<br><gl15>봉준호 - 영화 " 기생충 " 감독</gl15>
+								
+								<br><br><gm20>" 이거 만든 사람은 기생충인가? "</gm20>
+								
+								<br><br><icon5>★☆☆☆☆</icon5>
+
+
+							</div>
+						</section>
+
+
+
+						<!-- 백은영 -->
+						<section class="spotlight">
+							<div class="image"><img src="images/백은영.png" alt="" /></div><div class="content">
+							
+								<l2>
+									<p><gb35>Back Eun-Yeong</gb35>
+										<br><gl15>백은영 - 이세준 어머니, 집에서 노시는 중</gl15></p>
+									<p><gm20>" 진짜 이것들이 뭐하나 싶다. "</gm20></p>
+									<icon5><p>★★★★★</p></icon5>
+								</l2>
+
+								
+							</div>
+						</section>
+
+				<!-- CTA -->
+					<!-- <section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Arcue ut vel commodo</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							</header>
+							<ul class="actions stacked">
+								<li><a href="#" class="button fit primary">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section> -->
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							
+							<li><a href="https://www.instagram.com/diary._.ssul/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.instagram.com/minggeul_illust/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+
+						</ul>
+						<!--<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>-->
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
